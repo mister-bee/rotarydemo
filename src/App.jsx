@@ -14,11 +14,14 @@ const ChatBot = () => {
 const FullPageChatBot = () => {
   return (
     <FullPageChat
-      chatflowid="7dec31ce-0193-4b89-8659-95ddbd65d04f"
-      apiHost="https://flowiserotary.onrender.com"
+      chatflowid="b00f5277-a941-49a5-9234-5b408b7daaea"
+      apiHost="https://flowise-rotary.onrender.com"
     />
   );
 };
+
+
+
 
 function App() {
   const [isNarrowScreen, setIsNarrowScreen] = useState(window.innerWidth < 640);
@@ -37,7 +40,7 @@ function App() {
   return (
     <>
       <img src={rotaryLogo} className="logo" alt="Rotary logo" />
-      <h1>Rotary Club Bot</h1>
+      <h1>RotaryBot</h1>
       {isNarrowScreen ? <FullPageChatBot /> : <ChatBot />}
     </>
   );
