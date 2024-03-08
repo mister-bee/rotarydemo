@@ -41,7 +41,7 @@ function App() {
     <>
       <img src={rotaryLogo} className="logo" alt="Rotary logo" />
       <h1>RotaryBot</h1>
-      {isNarrowScreen ? <FullPageChatBot /> : <ChatBot />}
+      {/* {isNarrowScreen ? <FullPageChatBot /> : <ChatBot />} */}
     </>
   );
 }
