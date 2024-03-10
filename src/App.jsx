@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import rotaryLogo from './assets/rotary-gold.png';
+import rotaryLogo from './assets/rotary-march10.svg';
 import { BubbleChat, FullPageChat } from 'flowise-embed-react';
 import './App.css';
 
@@ -40,7 +40,8 @@ function App() {
   return (
     <>
       <img src={rotaryLogo} className="logo" alt="Rotary logo" />
-      <h1>RotaryBot</h1>
+      <h1> Minneapolis Rotary Club #9</h1>
+      <h1> History Chat</h1>
       {isNarrowScreen ? <FullPageChatBot /> : <ChatBot />}
     </>
   );
